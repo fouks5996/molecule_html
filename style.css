@@ -1,0 +1,70 @@
+.banner{
+   height: 30vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   padding-left: 15%;
+   background: rgb(165,44,196);
+   background: linear-gradient(90deg, rgba(165,44,196,1) 0%, rgba(9,42,121,1) 100%);
+}
+
+.banner h1{
+   font-size: clamp(2rem, 4vw, 3.5rem);
+   color: white;
+   font-weight: 900;
+}
+
+.banner2{
+   height: 80vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("https://images.unsplash.com/photo-1515541324332-7dd0c37426e0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1536");
+}
+
+.bg-blur{
+   padding: 30px 60px;
+   backdrop-filter: blur(5px);
+   background-color: rgba(255, 255, 255, 0.1);  
+   border-radius: 20px;
+}
+
+.banner2 h1{
+   font-size: clamp(3rem, 4vw, 6rem);
+   color: white;
+   font-weight: 900;
+   text-align: center;
+}
+
+.element{
+   height: 80vh;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10% 5%;
+}
+.el-right{
+   width: fit-content;
+}
+.el-right img{
+   width: 50%;
+}
+
+.ind{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+}
+
+.ind h1{
+   font-size: clamp(2rem, 4vw, 3.5rem);
+   font-weight: 900;
+}
